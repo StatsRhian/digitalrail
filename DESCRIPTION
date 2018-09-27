@@ -1,0 +1,10 @@
+Package: digitalrail
+Title: Helper functions for Digital Rail
+Version: 0.0.0.9000
+Authors@R: person("Rhian", "Davies", email = "rhian.davies@digitalrail.co.uk", role = c("aut", "cre"))
+Description: This function collates any small functions required for my work at Digital Rail. 
+Depends: R (>= 3.4.4)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
