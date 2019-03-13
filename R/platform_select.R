@@ -27,7 +27,8 @@ platform_select <- function(table_name, previous_seconds){
                     list(name = "time", type = "timestamp", as = "")
   )
   clauses = list(
-    list(column = "time", operator = ">", value = round(start_time, 0), type = "timestamp")
+    list(column = "time", operator = ">", value = round(start_time, 0), type = "timestamp"),
+    list(column = "time", operator = "<", value = round(current_time, 0), type = "timestamp")
   )
   request_body <- jsonlite::toJSON(list(table = table_name, attributes = attributes, clauses = clauses), pretty = TRUE, auto_unbox = TRUE)
 
