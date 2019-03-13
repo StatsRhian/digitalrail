@@ -1,2 +1,3 @@
-^.*\.Rproj$
+^LICENSE\.md$
+^digitalrail\.Rproj$
 ^\.Rproj\.user$

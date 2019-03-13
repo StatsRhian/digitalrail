@@ -14,8 +14,4 @@ platform_select(table_name, previous_seconds)
 \description{
 This functions allows me to retrieving specific table records from the digital rail platform, and decode the json format into a tibble.
 }
-\examples{
-cat_function()
-
-}
 \keyword{api}

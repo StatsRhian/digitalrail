@@ -12,8 +12,4 @@ platform_get(table_name)
 \description{
 This functions allows me to get a table from the digital rail platform, and decode the json format into a tibble.
 }
-\examples{
-cat_function()
-
-}
 \keyword{api}

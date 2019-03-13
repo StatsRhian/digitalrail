@@ -1,10 +1,17 @@
 Package: digitalrail
-Title: Helper functions for Digital Rail
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
-Authors@R: person("Rhian", "Davies", email = "rhian.davies@digitalrail.co.uk", role = c("aut", "cre"))
-Description: This function collates any small functions required for my work at Digital Rail. 
-Depends: R (>= 3.4.4)
-License: What license is it under?
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    tibble,
+    jsonlite,
+    httr
 RoxygenNote: 6.1.1
