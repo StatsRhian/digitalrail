@@ -10,7 +10,7 @@
 platform_select <- function(table_name, previous_seconds){
 
   #Take current time in milliseconds
-  current_time <- as.numeric(as.POSIXct(Sys.time())) * 1000
+  current_time <- as.numeric(lubridate::now()) * 1000
   start_time <- current_time - previous_seconds * 1000
 
   select_url <- "http://digitalrail-platform:8091/datapoint/table/record/select"
